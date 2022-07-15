@@ -1,0 +1,27 @@
+.main
+{
+	display: flex;
+}
+.main .left
+{
+	width: 80%;
+}
+.main .left .flex
+{
+	display: flex;
+	flex-flow: wrap;
+	gap: 20px;
+}
+.main .right
+{
+	/*background: silver;*/
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main .right .preview-card
+{
+	padding: 10px;
+	box-shadow: 0 0 10px black;
+}

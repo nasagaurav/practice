@@ -1,0 +1,18 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+<textarea>copy from</textarea>
+<textarea>paste to</textarea>
+
+
+
+<script>
+	$("textarea").bind("cut copy paste",p1)
+
+	function p1()
+	{
+		event.preventDefault()
+		alert("not allowed")
+	}
+</script>
